@@ -11,8 +11,13 @@ const TopicModel = require('./models/topics');
 const TotalScoreModel = require('./models/total_scores');
 
 // Importando variables de entorno
-const { DB_NAME, DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DIALECT } = process.env;
+// const { DB_NAME, DB_USERNAME, DB_PASSWORD, DB_HOST, DB_DIALECT } = process.env;
 
+const DB_NAME="udSvgvPBS1"
+const DB_USERNAME="udSvgvPBS1"
+const DB_PASSWORD="5OY37H4w4i"
+const DB_HOST="remotemysql.com"
+const DB_DIALECT="mysql"
 // Conexión a la DB
 const sequelize = new Sequelize(
   DB_NAME,
